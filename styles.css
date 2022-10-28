@@ -1,0 +1,349 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+
+* {
+    
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font-family:"Roboto", sans-serif;
+}
+
+.first-section{
+
+    background-color: slategray
+    
+
+}
+
+#header-logo{
+    font-size:24px;
+    color: #F9FAF8;
+    margin-left: -93.0%;
+    
+    
+   
+}
+
+.header-link{
+
+    font-size:18px;
+    color:#E5E7EB;
+    
+    
+}
+
+.p-first{
+
+    font-size:18px;
+    color:#E5E7EB;
+
+}
+
+
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header-link{
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.navbar-left,.navbar-right{
+
+    display:flex;
+    width:50%;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+ul{
+
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.h1{
+
+    font-size:48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.content{
+
+    display:flex;
+    flex-direction:row;
+
+}
+
+.content-right {
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:50%;
+
+}
+
+.content-left {
+
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    width:50%;
+    margin-left:50px;
+    justify-content:center;
+    align-items:center;
+}
+
+.img{
+
+    margin:50px;
+}
+
+.shop{
+
+    background-color:#3882f6;
+    color: white;
+    width:100px;
+    height: 40px;
+    border:1px;
+    border-radius:10px;
+}
+
+h2{
+
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+    margin: 15px;
+    justify-content:center;
+    text-align:center;
+
+}
+
+.row-of-blue-divs{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+    
+}
+
+.box-blue{
+
+    border: 5px solid #e65c00;
+    width:200px;
+    height: 200px;
+    border-radius:5px;
+    justify-content:center;
+    margin-left:65px;
+
+}
+
+.second-section{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+.p-second{
+
+    font-size:18px;
+    font-weight:bolder;
+    color:#1F2937;
+    margin-top: 20px;
+    justify-content:center;
+    align-items:center;
+    text-align:right;
+    margin-left:37px;
+    
+
+
+}
+
+.p-hiit{
+
+    font-size:18px;
+    font-weight:bolder;
+    color:#1F2937;
+    margin-top: 20px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-left:50px;
+
+
+}
+
+
+.p-cardio{
+
+    font-size:18px;
+    font-weight:bolder;
+    color:#1F2937;
+    margin-top: 20px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-left:65px;
+    
+}
+
+
+.p-strength{
+
+    font-size:18px;
+    font-weight:bolder;
+    color:#1F2937;
+    margin-top: 20px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-left:60px;
+    
+}
+
+
+.third-section{
+    background-color: #E5E7EB;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+h3{
+    
+    font-size:36px;
+    font-style:italic;
+    font-weight:light;
+    color:#e65c00;
+}
+
+.p-third{
+
+    font-size:18px;
+    text-align:end;
+}
+
+#p-div{
+    
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 100px;
+
+}
+
+.last-div{
+
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.blue-container{
+
+    background-color: saddlebrown;
+    width:75%;
+    height:50%;
+
+}
+
+
+.left{
+
+    width:80%;
+    margin-left:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    margin-left:80px;
+
+
+}
+
+
+.h4{
+
+    font-size:24px;
+    color:white;
+    text-align:center;
+    justify-items:center;
+    
+}
+
+.last-p{
+
+    color:black;
+    font-size:15px;
+}
+
+.right{
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-bottom:50%;
+    
+}
+
+
+.btn-last-div{
+
+    background-color: grey;
+    color: black;
+    width: 100px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 3px white;
+    border-radius:10px;
+    margin-top:-80px;
+    margin-right:15px;
+
+}
+
+
+.footer{
+
+    background-color: grey;
+    color: black;
+    width: 60%;
+    height: 60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    
+}
+
+
